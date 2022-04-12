@@ -3,9 +3,12 @@
 Simple CLI script that updates xAPI Statement timestamps to start at provided date.
 
 There are 3 CLI arguments
-1. `date` (Required) - desired timestamp value for most recent xAPI Statement, e.g. `"2022-04-12T12:00:00Z"`
-2. `sourceFile` (Required) - path to JSON file which contains xAPI Statements to update, e.g. `./data/example_data.json`
-3. `targetFile` (Optional) - path to JSON file to store updated xAPI Statements in, e.g. `./data/example_output_data.json`
+1. `date` (Required) - desired timestamp value for most recent xAPI Statement
+  * e.g. `"2022-04-12T12:00:00Z"`
+3. `sourceFile` (Required) - path to JSON file which contains xAPI Statements to update
+  * e.g. `./data/example_data.json`
+5. `targetFile` (Optional) - path to JSON file to store updated xAPI Statements in
+  * e.g. `./data/example_output_data.json`
 
 An error is thrown when `date` and/or `sourceFile` are not provided.
 
